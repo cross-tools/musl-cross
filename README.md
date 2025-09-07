@@ -4,32 +4,32 @@ This is a simple, lightweight project for making cross-compilation toolchain wit
 
 ## Supported targets
 
-| Target                         | Kernel  | Binutils | GCC    | Musl   |
-|--------------------------------|---------|----------|--------|--------|
-| aarch64-unknown-linux-musl     | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| arm-unknown-linux-musleabi     | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| arm-unknown-linux-musleabihf   | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| armv7-unknown-linux-musleabi   | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| armv7-unknown-linux-musleabihf | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| i586-unknown-linux-musl        | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| i686-unknown-linux-musl        | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| loongarch64-unknown-linux-musl | 5.19.16 | 2.45     | 15.2.0 | 1.2.5  |
-| m68k-unknown-linux-musl        | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| microblazeel-xilinx-linux-musl | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| microblaze-xilinx-linux-musl   | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| mipsel-unknown-linux-musl      | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| mipsel-unknown-linux-muslsf    | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| mips-unknown-linux-musl        | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| mips-unknown-linux-muslsf      | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| mips64el-unknown-linux-musl    | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| mips64-unknown-linux-musl      | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| powerpc-unknown-linux-musl     | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| powerpc64-unknown-linux-musl   | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| riscv32-unknown-linux-musl     | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| riscv64-unknown-linux-musl     | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| s390x-ibm-linux-musl           | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| sh4-multilib-linux-musl        | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
-| x86_64-unknown-linux-musl      | 5.4.293 | 2.45     | 15.2.0 | 1.2.5  |
+| Target                         | Kernel  | Binutils | GCC    | Musl   | Mold   |
+|--------------------------------|---------|----------|--------|--------|--------|
+| aarch64-unknown-linux-musl     | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| arm-unknown-linux-musleabi     | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| arm-unknown-linux-musleabihf   | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| armv7-unknown-linux-musleabi   | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| armv7-unknown-linux-musleabihf | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| i586-unknown-linux-musl        | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| i686-unknown-linux-musl        | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| loongarch64-unknown-linux-musl | 5.19.16 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| m68k-unknown-linux-musl        | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| microblazeel-xilinx-linux-musl | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| microblaze-xilinx-linux-musl   | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| mipsel-unknown-linux-musl      | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| mipsel-unknown-linux-muslsf    | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| mips-unknown-linux-musl        | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| mips-unknown-linux-muslsf      | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| mips64el-unknown-linux-musl    | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| mips64-unknown-linux-musl      | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | N/A    |
+| powerpc-unknown-linux-musl     | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| powerpc64-unknown-linux-musl   | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| riscv32-unknown-linux-musl     | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| riscv64-unknown-linux-musl     | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| s390x-ibm-linux-musl           | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| sh4-multilib-linux-musl        | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
+| x86_64-unknown-linux-musl      | 5.4.296 | 2.45     | 15.2.0 | 1.2.5  | 2.40.4 |
 
 ## How to use
 
