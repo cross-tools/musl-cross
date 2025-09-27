@@ -31,7 +31,9 @@ jobs:
           - mips-unknown-linux-muslsf
           - mips64el-unknown-linux-musl
           - mips64-unknown-linux-musl
+          - powerpcle-unknown-linux-musl
           - powerpc-unknown-linux-musl
+          - powerpc64le-unknown-linux-musl
           - powerpc64-unknown-linux-musl
           - riscv32-unknown-linux-musl
           - riscv64-unknown-linux-musl
